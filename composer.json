@@ -3,7 +3,7 @@
 	"description": "Intelliplan candidate portal integration",
 	"type": "silverstripe-module",
 	"homepage": "https://github.com/hoodweb/intelliplan",
-	"keywords": ["silverstripe", "e-conomic", "integration"],
+	"keywords": ["silverstripe", "intelliplan", "integration"],
 	"authors": [
 		{
 			"name": "Hood",
