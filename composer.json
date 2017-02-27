@@ -1,0 +1,19 @@
+{
+	"name": "hoodweb/intelliplan",
+	"description": "Intelliplan candidate portal integration",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/hoodweb/intelliplan",
+	"keywords": ["silverstripe", "e-conomic", "integration"],
+	"authors": [
+		{
+			"name": "Hood",
+			"email": "info@hood.dk"
+		}
+	],
+	"require": {
+		"silverstripe/framework": "^3.1"
+	},
+	"extra": {
+		"installer-name": "e-conomic"
+	}
+}
