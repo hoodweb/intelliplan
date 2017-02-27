@@ -27,11 +27,13 @@ class Intelliplan extends \Object
 	protected $session_id;
 
 	/**
-	 * @param string $partner_code
-	 * */
+	 * @param $partner_code
+	 * @return $this
+	 */
 	public function setPartnerCode($partner_code)
 	{
 		$this->partner_code = $partner_code;
+		return $this;
 	}
 
 	/**
@@ -48,11 +50,13 @@ class Intelliplan extends \Object
 	}
 
 	/**
-	 * @param string $client_name
-	 * */
+	 * @param $client_name
+	 * @return $this
+	 */
 	public function setClientName($client_name)
 	{
 		$this->client_name = $client_name;
+		return $this;
 	}
 
 	/**
@@ -69,10 +73,12 @@ class Intelliplan extends \Object
 
 	/**
 	 * @param $domain
+	 * @return $this
 	 */
 	public function setApiDomain($domain)
 	{
 		$this->api_domain = $domain;
+		return $this;
 	}
 
 	/**
@@ -89,11 +95,13 @@ class Intelliplan extends \Object
 	}
 
 	/**
-	 * @param string $session_id
-	 * */
+	 * @param $session_id
+	 * @return $this
+	 */
 	public function setSessionID($session_id)
 	{
 		$this->session_id = $session_id;
+		return $this;
 	}
 
 	/**
@@ -106,7 +114,7 @@ class Intelliplan extends \Object
 
 	/**
 	 * @param string $api_function "The function that is called with the request fx. 'CandidatesUserAccounts/CreateAccount'"
-	 * @return Object $this
+	 * @return Object Instance of Request
 	 * */
 	public function createRequest($api_function)
 	{
