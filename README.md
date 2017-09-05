@@ -1,5 +1,5 @@
 # Intelliplan
-Basic Integration with intelliplan candidate portal
+Basic Integration with intelliplan candidate portal from silverstripe
 
 ## Installation
 ```
